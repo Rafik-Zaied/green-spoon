@@ -1,0 +1,36 @@
+.recipe_container {
+  border: 4px solid #19a62e;
+  border-radius: 10px;
+  padding: 0.5em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe_img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.recipe_title {
+  margin-top: 0.5em;
+  line-height: 1.2;
+  margin-bottom: auto;
+}
+
+.recipe_link {
+  color: #19a62e;
+  text-decoration: none;
+}
+
+.recipe_link p {
+  margin-bottom: 0;
+}
+
+.recipe_link:hover {
+  color: #003301;
+}
+
+.image_error {
+  padding: 1.5em 0;
+}

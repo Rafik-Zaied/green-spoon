@@ -1,0 +1,35 @@
+.searchbar_section {
+  text-align: center;
+  padding: 0 1em;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.searchbar_title {
+  margin-top: 0.4em;
+}
+
+.searchbar_subtitle {
+  margin-bottom: 0.6em;
+  line-height: 1.2;
+}
+
+.searchbar_paragraph {
+  margin-bottom: 0.8em;
+}
+
+.user_input {
+  width: 80%;
+  padding: 0.2em;
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+  border: 2px solid #19a62e;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+
+.user_input:focus,
+.user_input:active {
+  outline-color: #096609;
+}

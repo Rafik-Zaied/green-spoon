@@ -1,0 +1,44 @@
+.recipeInformation_container {
+  padding: 1em;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.recipeInformation_paragraph {
+  text-align: center;
+}
+
+.recipeInformation_title {
+  line-height: 1.2;
+  padding-bottom: 0.5em;
+  text-align: center;
+}
+
+.recipeInformation_image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.recipeInformation_list {
+  margin: 0 1em;
+  padding: 0.5em 0.5em 1em;
+}
+
+.recipeInformation_list_item::marker {
+  color: #19a62e;
+  font-size: 1.2em;
+}
+
+@media (min-width: 650px) {
+  .recipeInformation_image {
+    margin: auto 0;
+  }
+
+  .recipeInformation_ingridients {
+    grid-row-start: 1;
+  }
+  .recipeInformation_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
