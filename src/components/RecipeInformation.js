@@ -24,7 +24,7 @@ export default function RecipeInformation({ recipeData }) {
 
   //we check if the image exists because some recepies doesn't have it
   const displayImage = image ? (
-    <img className={styles.recipeInformation_image} src={image} alt="recipe-picture" />
+    <img className={styles.recipeInformation_image} src={image} alt="recipe" />
   ) : (
     <h2>Image not available :(</h2>
   );

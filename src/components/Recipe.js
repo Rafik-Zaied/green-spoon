@@ -5,7 +5,7 @@ import styles from "../css/recipe.module.css";
 export default function Recipe(props) {
   //some recipes doesn't have the image, we check if the value exists and we render the image or a placeholder text
   const displayImage = props.image ? (
-    <img className={styles.recipe_img} src={props.image} alt="recipe-picture" />
+    <img className={styles.recipe_img} src={props.image} alt="recipe" />
   ) : (
     <h2 className={styles.image_error}>Image not available :(</h2>
   );
