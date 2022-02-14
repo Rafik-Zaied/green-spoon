@@ -15,7 +15,7 @@ export default function RecipePage() {
     const url = `https://api.spoonacular.com/recipes/${recipeId}/information?apiKey=29f2ed933885484ba0ff335edd16201b`;
 
     axios.get(url).then((response) => setRecipeData(response.data));
-  }, [recipeId]);
+  }, []);
 
   return (
     <div>
